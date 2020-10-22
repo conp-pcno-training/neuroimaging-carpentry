@@ -7,6 +7,9 @@ env:
     # speeds up installation of html-proofer
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 
+# first time
+script: gem install bundler
+script: bundle install 
 # build and validate HTML files
 # more info at https://github.com/gjtorikian/html-proofer
 script: bundle exec jekyll build --trace #&& bundle exec htmlproofer ./_site --alt-ignore '/.*/'
