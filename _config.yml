@@ -1,3 +1,2 @@
-url: "https://conp-pcno-training.github.com" # the base hostname & protocol for your site
-baseurl: "/neuroimaging-carpentry"
+baseurl: "https://conp-pcno-training.github.com/neuroimaging-carpentry"
 auto: true
